@@ -1,0 +1,54 @@
+# ----------------
+# NERSC Perlmutter
+# ----------------
+# If you need an account, please visit <nersc.gov>
+#
+# Compute responsibly.
+---
+snippets: "NERSC_Perlmutter_slurm"
+
+local:
+  prompt: "local:~$"
+  bash_shebang: "#!/bin/bash"
+
+remote:
+  name: "Perlmutter"
+  host_id: "Perlmutter"
+  login: "saul.nersc.gov"
+  host: "saul"
+  node: "pm001"
+  location: "saul.nersc.gov"
+  homedir: "/home"
+  user: "user"
+  prompt: 'remote:~$'
+  prompt_work: "user@saul:/work/user"
+  module_python3: "Python"
+  bash_shebang: "#!/bin/bash"
+
+sched:
+  name: "Slurm"
+  reservation: "trn010"
+  submit:
+    name: "sbatch"
+    options: ""
+  queue:
+    debug: "smnode"
+    testing: "cpubase_bycore_b1"
+  status: "squeue"
+  flag:
+    user: "-u user"
+    interactive: "--pty /bin/bash"
+    histdetail: "-l -j"
+    name: "--job-id="
+    time: "--time="
+    queue: "--constraint="
+    nodes: "--nodes="
+    tasks: "--ntasks="
+  del: "scancel"
+  interactive: "srun"
+  info: "sinfo"
+  comment: "#SBATCH"
+  hist: "sacct -u user"
+  hist_filter: ""
+  partition: "cpu"
+  qos: "debug"
