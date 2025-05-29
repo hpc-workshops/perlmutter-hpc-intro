@@ -1,7 +1,7 @@
 #------------------------------------------------------------
 # Values for this lesson.
 #------------------------------------------------------------
-
+---
 # Which carpentry is this (swc, dc, lc, or cp)?
 # swc: Software Carpentry
 # dc: Data Carpentry
@@ -17,7 +17,7 @@ carpentry: 'cp'
 # carpentry_description: "Custom Carpentry"
 
 # Overall title for pages.
-title: 'Introduction to High-Performance Computing'
+title: 'Introduction to High-Performance Computing at NERSC'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: 2017-03-24
@@ -33,7 +33,7 @@ life_cycle: 'alpha'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/ocaisa/probable-pancake'
+source: 'https://github.com/hpc-workshops/nersc-hpc-intro'
 
 # Default branch of your lesson
 branch: 'main'
@@ -94,7 +94,7 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-carpentry_description: Lesson Description
-url: 'https://ocaisa.github.io/probable_pancake'
+carpentry_description: "HPC Intro at NERSC"
+url: 'https://hpc-workshops.github.io/perlmutter-hpc-intro'
 analytics: carpentries
 lang: en
