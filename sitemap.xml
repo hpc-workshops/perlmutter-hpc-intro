@@ -43,7 +43,13 @@
     <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/MAINTENANCE.html</loc>
   </url>
   <url>
+    <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/aio.html</loc>
+  </url>
+  <url>
     <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/files/jargon.html</loc>
+  </url>
+  <url>
+    <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/images.html</loc>
   </url>
   <url>
     <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/index.html</loc>
@@ -91,10 +97,28 @@
     <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/instructor/MAINTENANCE.html</loc>
   </url>
   <url>
+    <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/instructor/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/instructor/index.html</loc>
   </url>
   <url>
+    <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/instructor/key-points.html</loc>
+  </url>
+  <url>
     <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/key-points.html</loc>
   </url>
   <url>
     <loc>https://hpc-workshops.github.io/perlmutter-hpc-intro/profiles.html</loc>
