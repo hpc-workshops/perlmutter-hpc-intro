@@ -38,9 +38,8 @@ of the HPC Carpentry community.
 
 ### Slack
 
-The main Carpentries Slack channel is reachable at
-[swcarpentry.slack.com][swc-slack]. To become a member, you can
-trigger in invitation from [here][slack-invite].
+HPC Carpentry participates in the The Carpentries' Slack channel.
+Click through for a [Slack invite][slack-invite].
 
 You can go directly to the HPC Carpentry sub-channel at
 [#hpc-carpentry][hpc-slack]. These are the things to bookmark &mdash;
@@ -91,8 +90,8 @@ assigned to `CHECKERS` near the bottom of `bin/lesson_check.py`.
 [project-github]: https://github.com/hpc-carpentry
 [coord-repo]: https://github.com/hpc-carpentry/coordination
 [mainsite-repo]: https://github.com/hpc-carpentry/hpc-carpentry.org
-[swc-slack]: https://swcarpentry.slack.com
-[hpc-slack]: https://swcarpentry.slack.com/#hpc-carpentry
-[slack-invite]: https://swc-slack-invite.herokuapp.com
+[swc-slack]: https://carpentries.slack.com
+[hpc-slack]: https://carpentries.slack.com/#hpc-carpentry
+[slack-invite]: https://slack-invite.carpentries.org/
 [topicbox]: https://carpentries.topicbox.com
 [zenodo]: https://zenodo.org/

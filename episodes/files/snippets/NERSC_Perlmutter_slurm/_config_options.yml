@@ -1,7 +1,11 @@
+# ----------------
+# NERSC Perlmutter
+# ----------------
+# If you need an account, please visit <nersc.gov>
+#
+# Compute responsibly.
 ---
 snippets: "NERSC_Perlmutter_slurm"
-baseurl: "https://hpc-workflows.github.io/perlmutter-hpc-intro/"
-main_config: "lesson_config.yaml"
 
 local:
   prompt: "local:~$"
