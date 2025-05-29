@@ -36,7 +36,10 @@ in a restaurant. If you can relate to an instance where you had to wait for a
 while in a queue to get in to a popular restaurant, then you may now understand
 why sometimes your job do not start instantly as in your laptop.
 
-![](fig/restaurant_queue_manager.svg){alt="Compare a job scheduler to a waiter in a restaurant" max-width="75%"}
+![analogy](fig/restaurant_queue_manager.svg){
+    alt="Compare a job scheduler to a waiter in a restaurant"
+    max-width="75%"
+}
 
 The scheduler used in this lesson is Slurm. Although
 Slurm is not used everywhere, running jobs is quite similar
@@ -213,7 +216,7 @@ The following are several key resource requests:
 - `--ntasks=<ntasks>` or `-n <ntasks>`: How many CPU cores does your job need,
   in total?
 
-- `--time <days-hours:minutes:seconds>` or `-t <days-hours:minutes:seconds>`:
+- `--time=<days-hours:minutes:seconds>` or `-t <days-hours:minutes:seconds>`:
   How much real-world time (walltime) will your job take to run? The `<days>`
   part can be omitted.
 
