@@ -1626,7 +1626,8 @@ a waiter in a restaurant. If you can relate to an instance where you had
 to wait for a while in a queue to get in to a popular restaurant, then
 you may now understand why sometimes your job do not start instantly as
 in your laptop.</p>
-<figure><img src="../fig/restaurant_queue_manager.svg" alt="Compare a job scheduler to a waiter in a restaurant" max-width="75%" class="figure mx-auto d-block"></figure><p>The scheduler used in this lesson is Slurm. Although Slurm is not
+<figure><img src="../fig/restaurant_queue_manager.svg" max-width="75%" alt="Compare a job scheduler to a waiter in a restaurant" class="figure mx-auto d-block"><div class="figcaption">analogy</div>
+</figure><p>The scheduler used in this lesson is Slurm. Although Slurm is not
 used everywhere, running jobs is quite similar regardless of what
 software is being used. The exact syntax might change, but the concepts
 remain the same.</p>
@@ -1822,7 +1823,7 @@ which is probably not what you want.</p>
 <li><p><code>--ntasks=&lt;ntasks&gt;</code> or
 <code>-n &lt;ntasks&gt;</code>: How many CPU cores does your job need,
 in total?</p></li>
-<li><p><code>--time &lt;days-hours:minutes:seconds&gt;</code> or
+<li><p><code>--time=&lt;days-hours:minutes:seconds&gt;</code> or
 <code>-t &lt;days-hours:minutes:seconds&gt;</code>: How much real-world
 time (walltime) will your job take to run? The <code>&lt;days&gt;</code>
 part can be omitted.</p></li>
@@ -2853,7 +2854,7 @@ login node is loaded on a compute node).</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb25">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
